@@ -1,7 +1,7 @@
-from aiohttp_swagger3 import __version__
 from pathlib import Path, PurePath
 from setuptools import setup
 
+version = "0.4.3-scott"
 readme = Path(__file__).with_name("README.rst")
 
 with open(PurePath(__file__).parent / "requirements.txt") as f:
@@ -9,7 +9,7 @@ with open(PurePath(__file__).parent / "requirements.txt") as f:
 
 setup(
     name="aiohttp-swagger3",
-    version=__version__,
+    version=version,
     packages=["aiohttp_swagger3"],
     package_data={
         "aiohttp_swagger3": [
