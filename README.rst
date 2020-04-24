@@ -1,3 +1,10 @@
+Add the line below to ``requirements.txt`` 
+
+.. code:: text
+
+   aiohttp-swagger3 @ https://github.com/scotthaleen/aiohttp-swagger3/archive/v0.4.3-scott.tar.gz#egg=aiohttp-swagger3
+
+
 aiohttp-swagger3
 ================
 
