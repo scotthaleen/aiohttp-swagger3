@@ -1,7 +1,7 @@
 from pathlib import Path, PurePath
 from setuptools import setup
 
-version = "0.4.3-scott"
+version = "0.4.3.1-scott"
 readme = Path(__file__).with_name("README.rst")
 
 with open(PurePath(__file__).parent / "requirements.txt") as f:
